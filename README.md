@@ -41,3 +41,14 @@ This project involves analyzing crime data to uncover patterns, trends, and insi
   - sqlite3 (SQLite database interaction)
   - ipython-sql (SQLite magic for inline SQL execution)
   - SQLite: Manage datasets in a relational database format.
+
+# Spam vs Ham Classifier
+This project trains a supervised text classification model to distinguish spam from ham emails using TF-IDF features and a Multinomial Naive Bayes classifier.
+
+## Features:
+- Text classification for spam vs ham emails.
+- TF-IDF vectorization for feature extraction.
+- Model evaluation with a classification report.
+
+## Libraries
+- scikit-learn (modeling, vectorization, evaluation)
