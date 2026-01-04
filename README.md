@@ -1,6 +1,8 @@
-# Amazon_Web_Scraping
+# A collection of Machine Learning and Data Science projects implemented using Python, including analytics, modeling, and experiments.
+
+## Amazon_Web_Scraping
 This Simple Python project allows you to scrape product data from Amazon using BeautifulSoup, Requests, and Pandas. The scraper can extract information like product names, prices, ratings, and more from Amazon product pages.
-## Libraries Used
+## Libraries
 - BeautifulSoup: For parsing HTML and extracting the required data from Amazon web pages.
 - Pandas: For storing and manipulating the scraped data in a structured format (e.g., CSV or Excel).
 - Requests: To make HTTP requests to Amazon and retrieve the HTML content of product pages.
@@ -9,43 +11,39 @@ This Simple Python project allows you to scrape product data from Amazon using B
 - Store the scraped data in a Pandas DataFrame.
 - Export the data to CSV for further analysis.
 
-
-  
-# GDP Scraper
+## GDP Scraper
 This project scrapes the GDP data of countries from the web and organizes it into a structured dataset for analysis. 
 It uses Python and popular libraries like pandas, BeautifulSoup, and requests to extract, clean, and process the data.
 
-## Features 
+## Features
 - Web Scraping: Extracts GDP data of countries from a specified webpage.
 - Data Cleaning: Processes and organizes raw data into a structured format using pandas.
 - Exporting: Saves the cleaned data as a CSV file for further analysis.
 - Customizable: The code can be adapted for other websites or datasets.
 
-## Libraries Used 
+## Libraries
 - pandas: Data manipulation and analysis.
 - numpy: Numerical operations and handling missing data.
 - requests: Sending HTTP requests to fetch web pages.
 - BeautifulSoup: Parsing HTML and XML documents.
 - StringIO: Handling string data as file-like objects.
 
-
-
-# Crime Analysis Project
+## Crime Analysis Project
 This project involves analyzing crime data to uncover patterns, trends, and insights using Python and Jupyter Notebook.
-## Features:
+## Features
 - SQLite Magic: Write and execute SQL queries directly in Jupyter Notebook using `%sql` magic commands.
 - Data Analysis: Clean, transform, and explore datasets using Python.
 ## Libraries
-  - pandas (Data manipulation)
-  - matplotlib and `seaborn` (Data visualization)
-  - sqlite3 (SQLite database interaction)
-  - ipython-sql (SQLite magic for inline SQL execution)
-  - SQLite: Manage datasets in a relational database format.
+- pandas (Data manipulation)
+- matplotlib and `seaborn` (Data visualization)
+- sqlite3 (SQLite database interaction)
+- ipython-sql (SQLite magic for inline SQL execution)
+- SQLite: Manage datasets in a relational database format.
 
-# Spam vs Ham Classifier
+## Spam vs Ham Classifier
 This project trains a supervised text classification model to distinguish spam from ham emails using TF-IDF features and a Multinomial Naive Bayes classifier.
 
-## Features:
+## Features
 - Text classification for spam vs ham emails.
 - TF-IDF vectorization for feature extraction.
 - Model evaluation with a classification report.
